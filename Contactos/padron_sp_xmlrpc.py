@@ -3,35 +3,11 @@ import xmlrpc.client
 from datetime import date, timedelta, datetime
 import pytz
 
-# ''' Conexión a localhost '''
-# url = "http://localhost:8069"
-# db = "DEV_08092024"
-# username = 'LSantosL@iingen.unam.mx'
-# password = 'I[-$mvy8YMBJ@=sDez6b8~k$k'
-
-# ''' Conexión con Develop '''
-# url = "http://192.168.29.97:18069"
-# db = "SIIF_SIDIA_08052024_develop"
-# username = 'LSantosL@iingen.unam.mx'
-# password = 'I[-$mvy8YMBJ@=sDez6b8~k$k'
-
-# ''' Conexión con QA '''
-# url = "https://sidia-qa.patronato.unam.mx/"
-# db = "SIIF_SIDIA_06062024_qa"
-# username = 'LSantosL@iingen.unam.mx'
-# password = 'LSantosL123$$'
-
-# ''' Conexión con 5.45 (Pre-Producción) '''
-# url = "http://192.168.5.45:18069"
-# db = "SIIF_SIDIA_20092024"
-# username = 'LSantosL@iingen.unam.mx'
-# password = 'LSantosL123$$'
-
-''' Conexión con Base de UTIC (Pre-Producción) '''
-url = "https://siif-pruebas.patronato.unam.mx"
-db = "SIIF_SIDIA"
+''' Conexión a localhost '''
+url = "http://localhost:8069"
+db = "DEV_08092024"
 username = 'LSantosL@iingen.unam.mx'
-password = 'LSantosL123$$'
+password = 'I[-$mvy8YMBJ@=sDez6b8~k$k'
 
 common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
 common.version()

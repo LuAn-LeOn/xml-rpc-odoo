@@ -3,15 +3,9 @@ import xmlrpc.client
 from datetime import date, timedelta, datetime
 import pytz
 
-# ''' Conexión a localhost '''
-# url = "http://localhost:8069"
-# db = "DEV_08092024"
-# username = 'LSantosL@iingen.unam.mx'
-# password = 'I[-$mvy8YMBJ@=sDez6b8~k$k'
-
-''' Conexión a develop '''
-url = "http://192.168.29.97:18069"
-db = "SIIF_SIDIA_08052024_develop"
+''' Conexión a localhost '''
+url = "http://localhost:8069"
+db = "DEV_08092024"
 username = 'LSantosL@iingen.unam.mx'
 password = 'I[-$mvy8YMBJ@=sDez6b8~k$k'
 
